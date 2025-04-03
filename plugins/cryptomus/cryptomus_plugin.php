@@ -5,8 +5,8 @@ class cryptomus_plugin
 	static public $info = [
 		'name'        => 'cryptomus', //支付插件英文名称，需和目录名称一致，不能有重复
 		'showname'    => 'Cryptomus加密货币支付', //支付插件显示名称
-		'author'      => 'Cryptomus', //支付插件作者
-		'link'        => 'https://cryptomus.com', //支付插件作者链接
+		'author'      => 'caileisir', //支付插件作者
+		'link'        => 'https://github.com/caileisir/cryptomus_epay', //支付插件作者链接
 		'types'       => ['crypto'], //支付插件支持的支付方式
 		'currencies'  => ['CNY', 'USD', 'EUR'], //插件支持的默认货币，此处设置为人民币
 		'inputs' => [ //支付插件要求传入的参数以及参数显示名称
