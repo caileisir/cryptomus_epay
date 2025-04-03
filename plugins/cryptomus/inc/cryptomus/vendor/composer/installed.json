@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "cryptomus/api-php-sdk",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CryptomusCom/api-php-sdk.git",
+                "reference": "7d4cd3b50114951b649cb533fd8a2cb9a889e4c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CryptomusCom/api-php-sdk/zipball/7d4cd3b50114951b649cb533fd8a2cb9a889e4c6",
+                "reference": "7d4cd3b50114951b649cb533fd8a2cb9a889e4c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2022-07-29T15:49:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Cryptomus\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cryptomus api SDK",
+            "support": {
+                "issues": "https://github.com/CryptomusCom/api-php-sdk/issues",
+                "source": "https://github.com/CryptomusCom/api-php-sdk/tree/v1.0.0"
+            },
+            "install-path": "../cryptomus/api-php-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

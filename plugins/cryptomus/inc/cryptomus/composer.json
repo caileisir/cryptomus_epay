@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cryptomus/api-php-sdk": "^1.0"
+    }
+}
